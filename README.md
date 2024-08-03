@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 To use this for your daily share of HackerNews headlines, please clone and use the `HackerNews.py` file
 ```python
-git clone https://github.com/Bharat123rox/HackerNews-Scraper.git
+git clone https://github.com/bharatr21/HackerNews-Scraper.git
 ```
 
 Future Scope: 
