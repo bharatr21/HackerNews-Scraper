@@ -1,0 +1,207 @@
+--------------------------------------------------------------------------------
+Page 1
+--------------------------------------------------------------------------------
+
+Article Title: Programming Fonts – Test Drive
+Source URL: http://app.programmingfonts.org/
+Article Snippet:
+Size
+
+
+Article Author: ChrisGranger
+Article Score: 712
+Posted: 2019-01-21T03:30:17Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: We’re working on 1M Covid-19 testing capacity per day
+Source URL: https://www.billiontoone.com/covid-19
+Article Snippet: Could not fetch snippet.
+Article Author: dvdt
+Article Score: 684
+Posted: 2020-04-07T22:37:40Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: IBM's Asshole Test
+Source URL: https://johnpublic.mataroa.blog/blog/the-asshole-test/
+Article Snippet: Some years back I applied to join IBM's grad scheme, there was a peculiar stage to the process I've not seen elsewhere. It was during the onsite day, where a batch of 20 or so applicants were put through various tests in an IBM office. They called it the "group test"; around 8 of us were led to a room and asked to solve a puzzle together. Each of us was given an information pack, there was a white board, and a timer ticking down from 60 minutes. At first there was silence as we looked at our packs, then the first voice: "Let's pool our information", someone stands up by the whiteboard, grasping a marker. Silence, it's not clear how this information should be parsed. One person starts reading theirs out word for word. This is not going to scale. Someone interrupts. Before long the whiteboard leader has been deposed and another is wielding the marker.  Then another fights for control. The 60 minutes has run out, the puzzle is unsolved. Confused and drained we head off to the next test.
+Article Author: johnpublic
+Article Score: 683
+Posted: 2022-05-04T20:39:36Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: One of the Biggest At-Home DNA Testing Companies Is Working with the FBI
+Source URL: https://www.buzzfeednews.com/article/salvadorhernandez/family-tree-dna-fbi-investigative-genealogy-privacy
+Article Snippet: The move is sure to raise privacy concerns as law enforcement gains the ability to match DNA from crime scenes to a vast library of possible relatives.
+Article Author: chollida1
+Article Score: 677
+Posted: 2019-02-01T19:35:15Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Students are failing AP tests because the College Board can’t handle HEIC images
+Source URL: https://www.theverge.com/2020/5/20/21262302/ap-test-fail-iphone-photos-glitch-email-college-board-jpeg-heic
+Article Snippet: Could not fetch snippet.
+Article Author: danso
+Article Score: 669
+Posted: 2020-05-20T19:36:33Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Creator of "Dirty Jobs" Mike Rowe testifies to Congress
+Source URL: http://dsc.discovery.com/fansites/dirtyjobs/mike-rowe-senate-testimony.html
+Article Snippet:
+Reference #18.871c2117.1752798711.14c74322
+https://errors.edgesuite.net/18.871c2117.1752798711.14c74322
+
+Article Author: goldins
+Article Score: 667
+Posted: 2011-05-13T13:23:20Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: YouTube tests blocking videos unless you disable ad blockers
+Source URL: https://www.bleepingcomputer.com/news/technology/youtube-tests-blocking-videos-unless-you-disable-ad-blockers/
+Article Snippet: Could not fetch snippet.
+Article Author: jacooper
+Article Score: 666
+Posted: 2023-05-10T19:45:03Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Nissan Admits Internal Emissions-Test Results were Falsified
+Source URL: https://www.wsj.com/articles/nissan-admits-emission-test-data-was-falsified-1531139749
+Article Snippet: POPULAR ARTICLES
+Article Author: blawson
+Article Score: 665
+Posted: 2018-07-09T14:17:54Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Speed Test
+Source URL: https://speed.cloudflare.com/
+Article Snippet: Test your Internet connection. Check your network performance with our Internet speed test. Powered by Cloudflare's global edge network.
+Article Author: RadixDLT
+Article Score: 664
+Posted: 2023-08-10T09:30:44Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Ask HN: How do you test SQL?
+Source URL: No URL found for this article
+Article Snippet: Could not fetch snippet.
+Article Author: pcarolan
+Article Score: 663
+Posted: 2023-01-31T21:19:29Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Grasshopper 100m Lateral Divert Test
+Source URL: http://www.spacex.com/news/2013/08/14/grasshopper-100m-lateral-divert-test
+Article Snippet: Could not fetch snippet.
+Article Author: ash
+Article Score: 663
+Posted: 2013-08-14T15:57:38Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Are you a baby? A litmus test
+Source URL: https://haleynahman.substack.com/p/95-are-you-baby-a-litmus-test
+Article Snippet: Good morning! The other day some friends and I were reminiscing about an app idea we had years ago that would allow you to “blind cancel” on your friends. That is—flag if you were open to canceling a plan, which would only be revealed if the other person flagged it too. Basically, it was Tinder for bailing. This was our ultimate dream: an official, guilt-free conduit for that quiet hope that your friends wants to cancel, too.
+Article Author: mooreds
+Article Score: 660
+Posted: 2022-04-04T13:51:24Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Show HN: Test your shape rotation skills
+Source URL: https://0xf00ff00f.github.io/rotator/
+Article Snippet: code
+Article Author: 0xf00ff00f
+Article Score: 659
+Posted: 2022-02-20T19:19:09Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Show HN: A game that tests how well you know your local area
+Source URL: https://backofyourhand.com/51.89863,-8.47039
+Article Snippet: How well do you know your area? Test your knowledge by locating streets on a map.
+Article Author: adamlynch
+Article Score: 654
+Posted: 2022-03-19T12:50:18Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Experimental blood test detects cancer up to four years before symptoms appear
+Source URL: https://www.scientificamerican.com/article/experimental-blood-test-detects-cancer-up-to-four-years-before-symptoms-appear/
+Article Snippet: The assay looks for stomach, esophageal, colorectal, lung and liver malignancies
+Article Author: prawn
+Article Score: 650
+Posted: 2020-07-22T07:33:34Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Internet-connected cars fail privacy and security tests conducted by Mozilla
+Source URL: https://gizmodo.com/mozilla-new-cars-data-privacy-report-1850805416
+Article Snippet: Bad news: your car is a spy. Every major car brand's new internet-connected models flunked privacy and security tests conducted by Mozilla.
+Article Author: rntn
+Article Score: 638
+Posted: 2023-09-06T12:54:40Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: I'm Testifying to Congress about Data Breaches – What Should I Say?
+Source URL: https://www.troyhunt.com/im-testifying-in-front-of-congress-in-washington-dc-about-data-breaches-what-should-i-say/
+Article Snippet:
+Article Author: Ajedi32
+Article Score: 637
+Posted: 2017-11-21T20:43:50Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: More than 75% of Steam games tested are playable or verified on the Steam Deck
+Source URL: https://mastodon.cloud/@boilingsteam/110655979942850128
+Article Snippet: Could not fetch snippet.
+Article Author: ekianjo
+Article Score: 635
+Posted: 2023-07-04T13:27:41Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Facebook Messenger begins testing end-to-end encryption using Signal Protocol
+Source URL: https://whispersystems.org/blog/facebook-messenger/
+Article Snippet:
+Article Author: mayneack
+Article Score: 633
+Posted: 2016-07-08T13:40:19Z
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Article Title: Fast.com: Netflix internet connection speed test
+Source URL: https://fast.com/
+Article Snippet: How fast is your download speed? In seconds, FAST.com's simple Internet speed test will estimate your ISP speed.
+Article Author: protomyth
+Article Score: 631
+Posted: 2016-05-18T15:49:24Z
+--------------------------------------------------------------------------------

@@ -11,7 +11,19 @@ if not os.path.exists(os.path.join(os.getcwd(), 'HackerNews')):
 Adding only page number in order to add multiprocess support in future.
 @params verbose: Adds verbose output to screen instead of running the program silently.
 '''
-def fetch(page_no, verbose=False):
+def get_article_snippet(url):
+    try:
+        res = requests.get(url)
+        soup = BeautifulSoup(res.content, 'html.parser')
+        meta_description = soup.find('meta', attrs={'name': 'description'})
+        if meta_description:
+            return meta_description['content']
+        else:
+            return soup.find('p').text
+    except:
+        return "Could not fetch snippet."
+
+def fetch(page_no, query, category, verbose=False):
     #Should be unreachable, but just in case
     if page_no <= 0:
         raise ValueError('Number of Pages must be greater than zero')
@@ -20,46 +32,34 @@ def fetch(page_no, verbose=False):
     if verbose:
         print('Fetching Page {}...'.format(i))
     try:
-        res = requests.get('https://news.ycombinator.com/?p='+str(i))
-        only_td = SoupStrainer('td')
-        soup = BeautifulSoup(res.content, 'html.parser', parse_only=only_td)
-        tdtitle = soup.find_all('td', attrs={'class':'title'})
-        tdmetrics = soup.find_all('td', attrs={'class':'subtext'})
-        with open(os.path.join('HackerNews', 'NewsPage{}.txt'.format(i)), 'w+') as f:
+        if query:
+            res = requests.get('https://hn.algolia.com/api/v1/search?query='+query+'&tags='+category+'&page='+str(i))
+        else:
+            res = requests.get('https://hn.algolia.com/api/v1/search_by_date?tags='+category+'&page='+str(i))
+        results = res.json()['hits']
+        with open(os.path.join('HackerNews', '{}_{}_NewsPage{}.txt'.format(query, category, i)), 'w+') as f:
             f.write('-'*80)
             f.write('\n')
             f.write('Page {}'.format(i))
-            tdtitle = soup.find_all('td', attrs={'class':'title'})
-            tdrank = soup.find_all('td', attrs={'class':'title', 'align':'right'})
-            tdtitleonly = [t for t in tdtitle if t not in tdrank]
-            tdmetrics = soup.find_all('td', attrs={'class':'subtext'})
-            tdt = tdtitleonly
-            tdr = tdrank
-            tdm = tdmetrics
-            num_iter = min(len(tdr), len(tdt))
-            for idx in range(num_iter):
-                f.write('\n'+'-'*80+'\n')
-                rank = tdr[idx].find('span', attrs={'class':'rank'})
-                titl = tdt[idx].find('a', attrs={'class':'storylink'})
-                url = titl['href'] if titl and titl['href'].startswith('https') else 'https://news.ycombinator.com/'+titl['href']
-                site = tdt[idx].find('span', attrs={'class':'sitestr'})
-                score = tdm[idx].find('span', attrs={'class':'score'})
-                time = tdm[idx].find('span', attrs={'class':'age'})
-                author = tdm[idx].find('a', attrs={'class':'hnuser'})
-                f.write('\nArticle Number: '+rank.text.replace('.','') if rank else '\nArticle Number: Could not get article number')
-                f.write('\nArticle Title: '+titl.text if titl else '\nArticle Title: Could not get article title')
-                f.write('\nSource Website: '+site.text if site else '\nSource Website: https://news.ycombinator.com')
-                f.write('\nSource URL: '+url if url else '\nSource URL: No URL found for this article')
-                f.write('\nArticle Author: '+author.text if author else '\nArticle Author: Could not get article author')
-                f.write('\nArticle Score: '+score.text if score else '\nArticle Score: Not Scored')
-                f.write('\nPosted: '+time.text if time else '\nPosted: Could not find when the article was posted')
-                f.write('\n'+'-'*80+'\n')
+            for result in results:
+                if result.get('points', 0) > 100:
+                    f.write('\n'+'-'*80+'\n')
+                    f.write('\nArticle Title: '+result.get('title', 'Could not get article title'))
+                    f.write('\nSource URL: '+result.get('url', 'No URL found for this article'))
+                    snippet = get_article_snippet(result.get('url'))
+                    f.write('\nArticle Snippet: '+snippet)
+                    f.write('\nArticle Author: '+result['author'])
+                    f.write('\nArticle Score: '+str(result['points']))
+                    f.write('\nPosted: '+result['created_at'])
+                    f.write('\n'+'-'*80+'\n')
     except (requests.ConnectionError, requests.packages.urllib3.exceptions.ConnectionError) as e:
         print('Connection Failed for page {}'.format(i))
     except requests.RequestException as e:
         print("Some ambiguous Request Exception occurred. The exception is "+str(e))
 while(True):
     try:
+        query = input('Enter your search query (optional): ')
+        category = input('Enter category (default: story): ') or "story"
         pages = int(input('Enter number of pages that you want the HackerNews for (max 20): '))
         v = input('Want verbose output y/[n] ?')
         verbose = v.lower().startswith('y')
@@ -67,7 +67,7 @@ while(True):
             print('A maximum of only 20 pages can be fetched')
         pages = min(pages, 20)
         for page_no in range(1, pages + 1):
-            fetch(page_no, verbose)
+            fetch(page_no, query, category, verbose)
         break
     except ValueError as e:
         print('\nInvalid input, probably not a positive integer\n')
